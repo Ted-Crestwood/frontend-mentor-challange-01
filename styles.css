@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e0f1e7;
+
+}
+
+input:hover {
+  cursor: pointer;
+  border-color: #257e66;
+}
+
+textarea:hover {
+  cursor: pointer;
+  border-color: #257e66;
+}
+
+.item :hover{
+  cursor: pointer;
+  border: solid;
+  border-color: #257e66;
+  background-color: #257e66;
+}
+
+.border-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Full viewport height */
+  border: 2px solid black;
+  /* Adjust border as needed */
+}
+
+.form-container {
+  /* width: 100%; */
+  max-width: 600px;
+  /* Adjust form width as needed */
+  padding: 20px;
+}
+
+.item {
+  width: 45% !important;
+}
+
+.names {
+  width: 45% !important;
+}
+
+@media only screen and (max-width: 667px) {
+  .names {
+    width: 100% !important;
+  }
+
+  .item {
+    width: 100% !important;
+  }
+}
